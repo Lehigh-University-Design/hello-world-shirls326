@@ -1,12 +1,13 @@
 .container{
-    height: 30vh;
-    width:30vw;
+    height: fit-content;
+    width: 50vh;
     background-color: rgb(245, 81, 160);
     display: flex;
     position: relative;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+    flex-direction: column;
 
 }
 .main{
