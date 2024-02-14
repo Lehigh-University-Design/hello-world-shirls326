@@ -1,0 +1,107 @@
+:root{
+    --accent: #4659ff;
+    --backgroundColor: #efedf3;
+    --textColor: #000000;
+}
+
+body{
+    background-color: var(--backgroundColor); 
+    font-size: 22px;
+}
+
+
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+
+
+.post{
+
+    border: 1px solid black;
+    margin-bottom: 1em;
+    padding: .5em 1em;
+
+    .img-container{
+        background-color: rgb(255, 80, 237);
+        aspect-ratio:  3/2;
+    
+    
+    }
+
+    img{
+        width: 100%;
+        height: auto;
+        display: block;
+
+    }
+
+}
+
+
+/* Lab 3 Styles*/
+
+.hide-me{
+    display: none;
+
+}
+
+.block-div, .block{
+    display: block;
+    color: coral;
+    border: 1px solid var(--accent);
+    padding: 1em;
+
+
+
+
+}
+
+.inline-block{
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 0.2em 0.8em;
+    background-color: pink !important;
+    color: coral;
+    transform: rotate(-8deg);
+    font-weight: 800;
+}
+
+.inline{
+    display: inline;
+}
+.static{
+    position: static;
+    border: 1px solid red;
+}
+
+.fixed{
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    width: 200px;
+    padding: 1em;
+    background-color: blue;
+    border: 1px solid rgb(134, 64, 172);
+
+    border-radius: 3em;
+
+    z-index: 999;
+
+}
+
+.relative{
+    position: relative;
+    left:1em;
+    width: calc(100% - 1em);
+    border: 3px solid rgb(85, 206, 164);
+
+
+
+
+}
+
+
+
+

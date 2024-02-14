@@ -23,10 +23,45 @@
 body{
     background-color: rgb(255, 217, 242);
     height: 100vh;
-    width: 100vw;
+    /* width: 100vw; */
     font-family: "Grape Nuts";
 
 
 
 
 }
+
+.CssHeader{
+    font-size: 80px;
+}
+
+.post{
+
+    border: 1px solid black;
+    margin-bottom: 1em;
+    padding: .5em 1em;
+
+    .img-container{
+        aspect-ratio:  3/2;
+    }
+    img{
+        width: 100%;
+        height: auto;
+        display: block;
+
+
+    }
+
+}
+
+
+.highlight{
+
+    background-color: #a865b9;
+}
+
+
+
+
+
+
